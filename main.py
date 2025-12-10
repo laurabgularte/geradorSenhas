@@ -36,7 +36,7 @@ def gerar_senha_forte(comprimento=12, usar_maiusculas=True, usar_numeros=True, u
     
     return "".join(senha)
 
-s
+
 senha1 = gerar_senha_forte(comprimento=16, usar_simbolos=True)
 print(f"Senha Forte (16 caracteres): {senha1}")
 
