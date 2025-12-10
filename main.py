@@ -2,7 +2,7 @@ import random
 import string
 
 def gerar_senha_forte(comprimento=12, usar_maiusculas=True, usar_numeros=True, usar_simbolos=True):
-    """Gera uma senha forte e aleatória."""
+    
     
     caracteres = string.ascii_lowercase 
     
